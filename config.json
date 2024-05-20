@@ -1,0 +1,9 @@
+{
+    "websites": ["https://www.google.com", "https://www.facebook.com"],
+    "kafka_bootstrap_servers": "kafka-1423d5a9-timluo1234-6e50.k.aivencloud.com:21089",
+    "kafka_topic": "website_request_perf_assessment",
+    "kafka_security_protocol": "SSL",
+    "kafka_send_timeout_seconds": 20,
+    "regex_pattern": "'\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b'",
+    "website_requests_interval_seconds": 10
+}
